@@ -8,7 +8,7 @@ import {
     Alert,
     LinearProgress,
     DialogActions,
-    CircularProgress,
+    CircularProgress
 } from "@mui/material";
 
 /*
@@ -46,7 +46,7 @@ export default function ProcessDialog(props) {
                     <DialogContentText
                         style={{
                             display:
-                                props.showAlert && !props.showProgress
+                                (props.showAlert && !props.showProgress)
                                     ? "block"
                                     : "none",
                         }}
@@ -66,9 +66,9 @@ export default function ProcessDialog(props) {
                         style={{
                             margin: 10,
                             display:
-                                !props.showAlert &&
+                                (!props.showAlert &&
                                 props.showProgress &&
-                                props.linearProgress
+                                props.linearProgress)
                                     ? "block"
                                     : "none",
                         }}
@@ -83,9 +83,9 @@ export default function ProcessDialog(props) {
                     <CircularProgress
                         style={{
                             display:
-                                !props.showAlert &&
+                                (!props.showAlert &&
                                 props.showProgress &&
-                                !props.linearProgress
+                                !props.linearProgress)
                                     ? "block"
                                     : "none",
                         }}
@@ -97,7 +97,7 @@ export default function ProcessDialog(props) {
                         color="primary"
                         style={{
                             display:
-                                props.showAlert || props.showProgress
+                                (props.showAlert || props.showProgress)
                                     ? "none"
                                     : "block",
                         }}
