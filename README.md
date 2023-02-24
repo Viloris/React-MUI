@@ -1,8 +1,8 @@
 # React-MUI
 
-## Process Dialog component
+### Process Dialog component
 
-easy-to-use React-MUI dialog box component for processes (handling: confirmation, progress bar during the process, feedback about the process).
+Easy-to-use React-MUI dialog box component for processes (handling: confirmation, progress bar during the process, feedback about the process).
 
 
 ```
