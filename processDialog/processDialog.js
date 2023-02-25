@@ -11,27 +11,6 @@ import {
     CircularProgress
 } from "@mui/material";
 
-/*
-
- Example:
-
-    <ProcessDialog
-        dialogTitle="Title"
-        dialogOpen={dialogOpen}
-        showProgress={showProgress}
-        showAlert={showAlert}
-        responseType={responseType}
-        dialogContent="Lorem ipsum dolor sit amet?"
-        responseMessage="Success!"
-        agreeDialog={() => agreeDialog()}
-        disagreeDialog={() => disagreeDialog()}
-        buttonCaption="OK"
-        maxWidth="sm"
-        linearProgress={true}
-    />
-    
-*/
-
 export default function ProcessDialog(props) {
     return (
         <>
