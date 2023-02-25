@@ -7,13 +7,14 @@ Easy-to-use React-MUI dialog box component for processes (handling: confirmation
 #### Demo
 
 ##### Confirmation
-![Confirmation](https://github.com/Viloris/React-MUI/blob/main/Dialog_screen_1.png)
+![Confirmation](https://github.com/Viloris/Algorithms/blob/master/Pictures/Dialog_screen_confirmation.png)
 
 ##### Progress
-![Confirmation](https://github.com/Viloris/React-MUI/blob/main/Dialog_screen_2.png)
+![Progress](https://github.com/Viloris/Algorithms/blob/master/Pictures/Dialog_Screen_linearProgress.png)
+![Progress](https://github.com/Viloris/Algorithms/blob/master/Pictures/Dialog_screen_circularProgress.png)
 
 ##### Feedback
-![Confirmation](https://github.com/Viloris/React-MUI/blob/main/Dialog_screen_3.png)
+![Feedback](https://github.com/Viloris/Algorithms/blob/master/Pictures/Dialog_screen_feedback.png)
 
 #### Usage
 Simple import the *ProcessDialog.js* file and insert the component as a HTML object.
